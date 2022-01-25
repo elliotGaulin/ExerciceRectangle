@@ -16,6 +16,19 @@ Point Rectangle::GetPoint() const
 	return m_point;
 }
 
+void Rectangle::SetPoint(int x, int y)
+{
+	m_point.SetPoint(x, y);
+}
+void Rectangle::SetHauteur(int hauteur)
+{
+	m_hauteur = hauteur;
+}
+void Rectangle::SetLargeur(int largeur)
+{
+	m_largeur = largeur;
+}
+
 bool Rectangle::EstEnCollision(Rectangle rectangle1, Rectangle rectangle2)
 {
 	int x1A{ rectangle1.GetPoint().GetX() };

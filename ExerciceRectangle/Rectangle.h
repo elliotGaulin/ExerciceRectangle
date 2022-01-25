@@ -8,11 +8,9 @@ public:
 	int GetLargeur() const;
 	Point GetPoint() const;
 	
-	/*
 	void SetPoint(int, int);
 	void SetLargeur(int);
 	void SetHauteur(int);
-	*/
 	
 	bool static EstEnCollision(Rectangle, Rectangle);
 	bool EstDansRectangle(Point point);
